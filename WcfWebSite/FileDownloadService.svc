@@ -1,0 +1,8 @@
+﻿
+<%@ ServiceHost 
+Language="C#" 
+Debug="true" 
+Service="FileDownloadService" 
+CodeBehind="~/App_Code/FileDownloadService.cs" 
+Factory="Castle.Facilities.WcfIntegration.DefaultServiceHostFactory, 
+    Castle.Facilities.WcfIntegration" %>
